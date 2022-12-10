@@ -25,6 +25,10 @@ app.get("/", (req,res)=>{
     res.render("success");
   })
 
+  app.get("/", (req,res)=>{
+    res.render("about");
+  })
+
   app.get("/posts/:postName", (req,res)=>{
     let requestedPage = _.lowerCase(req.params.postName);
    posts.forEach((post)=>{
