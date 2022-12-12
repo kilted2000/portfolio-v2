@@ -1,3 +1,6 @@
+.nav-name{
+  color: grey;
+}
 .form-control-dark {
     border-color: var(--bs-gray);
   }
@@ -13,3 +16,5 @@
   .dropdown-toggle {
     outline: 0;
   }
+
+
