@@ -1,9 +1,19 @@
 body{
   font-size: 100%;
+  margin: 0;
 }
 
 html, body{
-  height: 100%;
+height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #F3EFE0;
+}
+
+a:hover{
+  color: #C7BCA1;
 }
 
 .nav-name{
@@ -30,14 +40,9 @@ html, body{
   color: #F3EFE0;
   margin: 5% 5% 0 5%;
    padding: 5%; 
+   line-height: 4rem;
 }
 
-.titlePage{
-  background-color: #251749; /*consider changing to burgundyish */
-  color: #F3EFE0;
-  height: 100%;
-  margin: 0;
-}
 
 .frontPage{
   list-style: none;
@@ -45,7 +50,7 @@ html, body{
 }
 
 .title{
-  margin: 8rem;
+  padding:  2rem;
   font-family: 'Federo', sans-serif;
   font-size: 127px;
 }
