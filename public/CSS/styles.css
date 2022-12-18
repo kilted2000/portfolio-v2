@@ -1,3 +1,11 @@
+body{
+  font-size: 100%;
+}
+
+html, body{
+  height: 100%;
+}
+
 .nav-name{
   color: grey;
 }
@@ -18,10 +26,28 @@
   }
 
 .mid-content{
-  background-color: #251749;
+  background-color: #251749; /*consider changing to burgundyish */
   color: #F3EFE0;
-  margin: 0 5%;
-  padding: 0 5%;
+  margin: 5% 5% 0 5%;
+   padding: 5%; 
+}
+
+.titlePage{
+  background-color: #251749; /*consider changing to burgundyish */
+  color: #F3EFE0;
+  height: 100%;
+  margin: 0;
+}
+
+.frontPage{
+  list-style: none;
+  text-align: center;
+}
+
+.title{
+  margin: 8rem;
+  font-family: 'Federo', sans-serif;
+  font-size: 127px;
 }
 
 .profPic{
@@ -30,4 +56,5 @@
   margin-right: auto;
   width: 15%;
   border-radius: 50%;
+  margin-bottom: 45px;
 }
