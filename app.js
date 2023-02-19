@@ -36,10 +36,10 @@ app.get("/contact", (req,res)=>{
     res.render("about", {latha: day});
   })
 
-  app.get("/resume", (req,res)=>{
-    const cv = "RWhittingtonDeveloper.pdf" ;
-    res.render("resume",{resume1: cv} )
-  })
+
+
+   
+  
 //  app.get("/site.webmanifest)",(req,res)=>{
 // res.render("site.webmanifest");
 //  })

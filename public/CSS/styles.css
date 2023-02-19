@@ -1,6 +1,11 @@
 body{
   font-size: 100%;
-  margin: 0;
+  height: 100%; 
+  background-color:
+   #251749; 
+   color:
+   #F3EFE0;
+
 }
 
 html, body{
@@ -41,19 +46,24 @@ a:hover{
   margin: 5% 5% 0 5%;
    padding: 5%; 
    line-height: 4rem;
+
 }
 
 
 .frontPage{
   list-style: none;
-  text-align: center;
+  text-align: center; 
 }
 
 .title{
+ display: flex; 
+flex-direction: column;
+ text-align: end;
   padding:  2rem;
   font-family: 'Federo', sans-serif;
   font-size: 127px;
-}
+  ; 
+} 
 
 .profPic{
   display: block;
@@ -69,3 +79,30 @@ a:hover{
   justify-content: space-around;
 }
 
+  .fName{
+  /* display: flex;
+  flex-direction: column; */
+  /* padding-top:  25rem; */
+  font-family: 'Federo', sans-serif;
+  font-size: 27px;
+  /* justify-content: flex-start;
+  align-self: start; */
+}  
+
+.proj{
+height:950px;
+object-fit: cover;
+}
+
+#gHub{
+  
+  text-align: center;
+}
+
+.projCaption{
+  color: #251749;
+}
+
+.projCaptionLight{
+  color: #fff;
+}
