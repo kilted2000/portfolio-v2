@@ -36,13 +36,12 @@ app.get("/contact", (req,res)=>{
     res.render("about", {latha: day});
   })
 
-
+app.get("/resume", (req,res)=>{
+  const day = date.getDate();
+  res.render("resume", {latha: day});
+})
 
    
-  
-//  app.get("/site.webmanifest)",(req,res)=>{
-// res.render("site.webmanifest");
-//  })
 
 app.listen(3000, ()=>{
     console.log("Server running on Port 3000.");
