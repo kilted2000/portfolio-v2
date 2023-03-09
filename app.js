@@ -5,12 +5,15 @@ const bodyParser = require("body-parser");
 const favicon = require('serve-favicon');
 const date = require(__dirname + "/date.js");
 //const yarn = require("yarn");
+const bootstrap = require("bootstrap");
 
 const app = express();
 
 //app.use("yarn");
 app.set("view engine", "ejs");
+app.use(express.static("public"));
 
+app.use(bootstrap);
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
