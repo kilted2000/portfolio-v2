@@ -8,6 +8,7 @@ const yarn = require("yarn");
 
 const app = express();
 
+app.use("yarn");
 app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({extended: true}));
