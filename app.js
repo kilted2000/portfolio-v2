@@ -4,6 +4,7 @@ const _ = require("lodash");
 const bodyParser = require("body-parser");
 const favicon = require('serve-favicon');
 const date = require(__dirname + "/date.js");
+const yarn = require("yarn");
 
 const app = express();
 
@@ -43,6 +44,10 @@ app.get("/resume", (req,res)=>{
 
    
 
-app.listen(3000, ()=>{
-    console.log("Server running on Port 3000.");
-})
+// app.listen(3000, ()=>{
+//     console.log("Server running on Port 3000.");
+// })
+let port = process.env.PORT;
+
+
+app.listen(process.env.PORT || 3000);
