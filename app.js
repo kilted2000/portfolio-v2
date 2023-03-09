@@ -4,11 +4,11 @@ const _ = require("lodash");
 const bodyParser = require("body-parser");
 const favicon = require('serve-favicon');
 const date = require(__dirname + "/date.js");
-const yarn = require("yarn");
+//const yarn = require("yarn");
 
 const app = express();
 
-app.use("yarn");
+//app.use("yarn");
 app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({extended: true}));
